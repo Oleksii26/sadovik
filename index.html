@@ -27,12 +27,15 @@
                 <h2>
                     ЗАПОВНІТЬ, БУДЬ ЛАСКА, ФОРМУ НИЖЧЕ
                 </h2>
-                <form action="">
-                    <input type="text" placeholder="Ваше і'мя">
-                    <input type="number" placeholder="Ваш номер телефону">
-                    <button class="hero-btn order send">Зробити замовлення</button>
+                <form class="form">
+                    <input hidden type="text" placeholder="Email">
+                    <input hidden type="text" placeholder="Phone">
+                    <input class="email" name="email" type="text" placeholder="Email">
+                    <input class="phone" name="phone" type="text" placeholder="Phone">
+                    <button type="submit" class="hero-btn order send">Зробити замовлення</button>
                     <p>
-                        Відправляючи дані ви погоджуєтесь з <a href="/privacy.html" target="_blank">політикою конфіденційності</a>
+                        Відправляючи дані ви погоджуєтесь з <a href="/privacy.html" target="_blank">політикою
+                            конфіденційності</a>
                     </p>
                 </form>
             </div>
@@ -224,8 +227,9 @@
                 <h4>1799грн</h4>
             </div>
         </div>
-        <div class="hero-btns">
+        <form class="hero-btns">
             <button class="hero-btn order" data-modal-open3>Зробити замовлення</button>
+        </form>
     </main>
     <footer>
         <ul>
@@ -241,6 +245,8 @@
     </footer>
     <script src="./script.js"></script>
     <script src="./hidden.js"></script>
+    <script src="./backand.js"></script>
+
 </body>
 
 </html>
