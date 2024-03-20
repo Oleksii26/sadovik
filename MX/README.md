@@ -1,3 +1,0 @@
-# sadovik
-# sadovik
-# sadovik
